@@ -1,0 +1,26 @@
+{
+  "name": "testimonials-grid-section-main",
+  "version": "1.0.0",
+  "description": "Responsive UI with mobile first approach using SASS pre processor.",
+  "main": "index.html",
+  "scripts": {
+    "run": "sass ./assets/scss/style.scss style.css --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mitulpatel224/practice-testimonials-grid.git"
+  },
+  "keywords": [
+    "html",
+    "css",
+    "scss",
+    "mobile-first",
+    "responsive"
+  ],
+  "author": "mitulpatel224",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mitulpatel224/practice-testimonials-grid/issues"
+  },
+  "homepage": "https://github.com/mitulpatel224/practice-testimonials-grid#readme"
+}
