@@ -4,4 +4,37 @@
   position: relative;
   box-sizing: border-box;
   font-family: $fonts-BarlowSemiCondensed;
+  font-size: 13px;
+  color: $LightGray;
+}
+
+html,
+body {
+  height: 100%;
+  background-color: $LightGrayishBlue;
+}
+
+.container {
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-content: space-around;
+  align-items: center;
+}
+h2 {
+  font-weight: 600;
+}
+
+a {
+  color: $VeryDarkBlackishBlue;
+  &:visited {
+    color: $VeryDarkBlackishBlue;
+  }
+}
+
+@media (max-width: 768px) {
+  .container {
+    margin: 80px 30px 30px 30px;
+    height: auto;
+  }
 }
